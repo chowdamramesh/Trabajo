@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_createProject"
+            android:icon="@drawable/newproject"
+            android:title="Create A Project" />
+
+        <item
+            android:id="@+id/nav_createTask"
+            android:icon="@drawable/newproject"
+            android:title="Create A Task" />
+
+        <item
+            android:id="@+id/nav_addMem"
+            android:icon="@drawable/newproject"
+            android:title="Add Member" />
+
+        <item
+            android:id="@+id/nav_showMem"
+            android:icon="@drawable/newproject"
+            android:title="View Members" />
+
+        <item
+            android:id="@+id/nav_Urgenttasks"
+            android:icon="@drawable/newproject"
+            android:title="Urgent Taks" />
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/logoo"-->
+            <!--android:title="Gallery" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/logoo"-->
+            <!--android:title="Date Q's" />-->
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/logoo"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_Share"
+            android:icon="@drawable/logoo"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logoo"
+            android:title="Logout" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
